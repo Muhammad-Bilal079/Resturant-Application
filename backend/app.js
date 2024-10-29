@@ -26,7 +26,7 @@ app.use(cors(
 app.use(express.urlencoded({extended:true}))
 
 // routes
-app.use('/api/reservation',reservationRouter)
+app.use('/reservation',reservationRouter)
 
 // for error handling
 app.use(errorMiddleware)
